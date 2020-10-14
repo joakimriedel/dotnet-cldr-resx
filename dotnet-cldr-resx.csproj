@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <!-- https://github.com/dotnet/sdk/issues/13331 -->
+    <DisableWinExeOutputInference>true</DisableWinExeOutputInference>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>Monotio.DotnetCldrResx</RootNamespace>
+
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>cldr-resx</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta1.20371.2" />
+  </ItemGroup>
+
+</Project>
