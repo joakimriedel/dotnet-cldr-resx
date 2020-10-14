@@ -3,8 +3,7 @@
 
 # Installation
 
-1. `dotnet pack`
-2. `dotnet tool install -g dotnet-cldr-resx --add-source .\nupkg\`
+`dotnet tool install -g dotnet-cldr-resx`
 
 # Usage
 
