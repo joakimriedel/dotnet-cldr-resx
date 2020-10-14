@@ -13,6 +13,12 @@
     <PackageOutputPath>./nupkg</PackageOutputPath>
 
     <Nullable>enable</Nullable>
+
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/joakimriedel/dotnet-cldr-resx</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/joakimriedel/dotnet-cldr-resx.git</RepositoryUrl>
+    <Description>Dotnet tool that generates RESX files based on CLDR data.</Description>
   </PropertyGroup>
 
   <ItemGroup>
