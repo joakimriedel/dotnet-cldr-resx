@@ -21,3 +21,8 @@ jobs:
       run: dotnet restore
     - name: Pack
       run: dotnet pack --configuration Release --no-restore --include-source
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: package
+        path: nupkg/*.nupkg
